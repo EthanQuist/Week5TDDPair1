@@ -4,6 +4,11 @@
 ---
 
 @Authors 
+Part 1:
+Driver: Ryan Bates
+Navigator: Pruthvikumar Sanghavi
+
+Part 1:
 Driver: Ethan Quist
 Navigator: Aruna Baijal
 
