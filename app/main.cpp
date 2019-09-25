@@ -6,11 +6,7 @@
 
 int main()
 {
-	PIDController controller(1, 1, 1);
-		double result;
-
-		result = controller.compute(2, 3);
-		std::cout<<result;
+	dummy();
     return 0;
 }
 
