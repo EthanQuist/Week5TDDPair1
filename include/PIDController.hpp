@@ -1,7 +1,7 @@
 /* @file PIDController.hpp
  *
  * @brief Header file for PID Controller Class
- * @param constructor takes in three doubles for the three gains Kp, Ki, Kd
+ * This class contains a simple PID controller with three gains (proportional, integral, derivative) and can compute output using velocity and setpoint
  * @author Ethan Quist (author) Aruna Baijal (navigator) [pair 1]
  * @copywrite UMD Student Work
  */
@@ -17,5 +17,10 @@ public:
 			Ki = KiInput;
 			Kd = KdInput;
 		}
+	/* @brief function to compute the output using controller gains and inputs actual velocity and setpoint velocity
+	 * @param double actual velocity - the velocity measured by the system
+	 * @param double setpoint velocity - the velocity desired by the user
+	 * @return  double - the output of the controller, computed using the controller gains and the inputs
+	 */
 	double compute(double actualVelocity, double setpointVelocity);
 };
