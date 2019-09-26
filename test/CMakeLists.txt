@@ -3,7 +3,6 @@ set(GTEST_SHUFFLE 1)
 add_executable(
     cpp-test
     main.cpp
-    test.cpp
     ${CMAKE_SOURCE_DIR}/app/PIDController.cpp
     PIDControllerTest.cpp
  )
