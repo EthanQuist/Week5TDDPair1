@@ -1,12 +1,13 @@
 // Copyright 2019 Copyright Ryan Bates and Pruthvikumar Sanghavi
-#include <iostream>
-#include <lib.hpp>
-#include <PIDController.hpp>
+
 
 
 
 int main() {
-  dummy();
+  PIDController controller(2, 2, 2);
+  double result;
+  result = controller.compute(-10, -11);
+  std::cout << "Result is " << result << std::endl;
   return 0;
 }
 
