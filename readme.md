@@ -27,6 +27,15 @@ This project contains our PID controller, which is primarily used through the co
 -What else can we add to the running guide?
 -Do we need a separate Doxygen tag for class, in addition to file?
 
+## Discussion Notes with full group
+-Code works correctly
+-Agreed upon comments in all of our sections
+-Discussed testing for projects
+--Could possibly add corner cases
+--Could add test for error detection and null inputs
+--Passing illegal values into the class
+
+
 
 @Authors 
 Part 2:
