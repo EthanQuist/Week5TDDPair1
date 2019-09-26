@@ -1,8 +1,9 @@
+// Copyright 2019 Copyright Ryan Bates and Pruthvikumar Sanghavi
 #pragma once
 
-#include<iostream>
+#include <iostream>
+#include <lib.hpp>
+#include <PIDController.hpp>
 
-void dummy()
-{
-    std::cout << "HI" << std::endl;
-}
+
+
